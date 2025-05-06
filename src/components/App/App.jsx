@@ -5,8 +5,8 @@ import ContactList from "../ContactList/ContactList";
 
 export default function App() {
   return (
-    <div className={css.container}>
-      <h1>Phonebook</h1>
+    <div>
+      <h1 className={css.headerText}>Phonebook</h1>
       <ContactForm />
       <SearchBox />
       <ContactList />
