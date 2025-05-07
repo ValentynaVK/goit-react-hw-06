@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/slices/contactsSlice";
+import { addContact } from "../../redux/contactsSlice";
 import css from "./ContactForm.module.css";
 import * as Yup from "yup";
 import { useId } from "react";
